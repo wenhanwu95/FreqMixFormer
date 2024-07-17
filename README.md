@@ -1,4 +1,4 @@
-# SATO: Stable Text-to-Motion Framework
+# Frequency Guidance Matters: Skeletal Action Recognition by Frequency-Aware Mixed Transformer
 
 [Wenhan Wu](https://sites.google.com/view/wenhanwu/%E9%A6%96%E9%A1%B5), [Ce Zheng](https://zczcwh.github.io/), [Zihao Yang](https://openreview.net/profile?id=~Zihao_Yang7), [Srijan Das](https://srijandas07.github.io/), [Chen Chen](https://www.crcv.ucf.edu/chenchen/), [Aidong Lu ](https://webpages.charlotte.edu/alu1/)
 
@@ -10,27 +10,28 @@ Recently, transformers have demonstrated great potential for modeling long-term 
 The overall design of our Frequency-aware Mixed Transformer. Our FreqMixFormer model overcomes the limitations of traditional transformer-based methods, which cannot effectively recognize confusing actions such as reading and writing due to the straightforward process of skeleton sequences. As highlighted with the colored boxes, the FreqMixFormer introduces the frequency domain and extracts high-frequency features, which often indicate subtle and dynamic movements (red), and low-frequency features, which are associated with slow and steady movements (blue). These features are then fused with spatial features. Our results demonstrate that the integrated frequency-spatial features significantly improve the model's capability to discern discriminative joint correlations.
 
 ## Our Approach
-<p align="center">
-  <img src="imgs/fig2" alt="Approach Image">
-</p>
+![Approach](imgs/fig2.png)
 We propose a Frequency-aware Attention Block (FAB) to investigate frequency features within skeletal sequences. A frequency operator is specifically designed to improve the learning of frequency coefficients, thereby enhancing the ability to capture discriminative correlations among joints.
-Consequently, we introduce the \textbf{Frequency-aware Mixed Transformer} (FreqMixFormer) to extract frequency-spatial joint correlations. The model incorporates a temporal transformer designed to enhance its ability to capture temporal features across frames.
+Consequently, we introduce the Frequency-aware Mixed Transformer (FreqMixFormer) to extract frequency-spatial joint correlations. The model incorporates a temporal transformer designed to enhance its ability to capture temporal features across frames.
 
 
 ## Results on popular datasets
 ![resuls](imgs/result.png)
 
 ## Latest Updates:
-* Create the GitHub repository Available on 18/07/2024
+* Create the GitHub repository available on 2024/7/18
 
 ## TODOs:
-* docs for
+* Project Website
+* Docs for
   * Prerequisites
   * Data Preparation
   * Training & Testing
-* codes for
+* Codes for
   * Model
-  * ensemble
+  * Ensemble
+
+## Citation
 
 ## Contact
 For any questions, feel free to create a new issue or contact:
