@@ -50,5 +50,5 @@ If you find this code useful for your research, please consider citing the follo
 ## Contact
 For any questions, feel free to create a new issue or contact:
 ```
-Wenhan Wu:      wwu25@uncc.edu
+Wenhan Wu: wwu25@uncc.edu
 ```
