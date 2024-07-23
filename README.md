@@ -1,4 +1,4 @@
-# Frequency Guidance Matters: Skeletal Action Recognition by Frequency-Aware Mixed Transformer
+# Frequency Guidance Matters: Skeletal Action Recognition by Frequency-Aware Mixed Transformer [ACM MM 2024]
 [Wenhan Wu](https://sites.google.com/view/wenhanwu/%E9%A6%96%E9%A1%B5), [Ce Zheng](https://zczcwh.github.io/), [Zihao Yang](https://openreview.net/profile?id=~Zihao_Yang7), [Srijan Das](https://srijandas07.github.io/), [Chen Chen](https://www.crcv.ucf.edu/chenchen/), [Aidong Lu ](https://webpages.charlotte.edu/alu1/)
 
 [![Website shields.io](https://img.shields.io/website?url=http%3A//poco.is.tue.mpg.de)](https://wenhanwu95.github.io/FreqMixFormer.github.io/)  [![arXiv](https://img.shields.io/badge/arXiv-2407.12322-00ff00.svg)](https://arxiv.org/abs/2407.12322)
@@ -36,14 +36,12 @@ Consequently, we introduce the Frequency-aware Mixed Transformer (FreqMixFormer)
 If you find this code useful for your research, please consider citing the following paper:
 
 ```bibtex
-@misc{wu2024frequencyguidancemattersskeletal,
-      title={Frequency Guidance Matters: Skeletal Action Recognition by Frequency-Aware Mixed Transformer}, 
-      author={Wenhan Wu and Ce Zheng and Zihao Yang and Chen Chen and Srijan Das and Aidong Lu},
-      year={2024},
-      eprint={2407.12322},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2407.12322}, 
+
+@inproceedings{wu2024frequencyguidancemattersskeletal,
+  author = {Wenhan Wu and Ce Zheng and Zihao Yang and Chen Chen and Srijan Das and Aidong Lu},
+  title = {Frequency Guidance Matters: Skeletal Action Recognition by Frequency-Aware Mixed Transformer},
+  booktitle = {ACM Multimedia 2024},
+  year = {2024},
 }
 ```
 
