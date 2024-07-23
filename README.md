@@ -41,7 +41,7 @@ If you find this code useful for your research, please consider citing the follo
   author = {Wenhan Wu and Ce Zheng and Zihao Yang and Chen Chen and Srijan Das and Aidong Lu},
   title = {Frequency Guidance Matters: Skeletal Action Recognition by Frequency-Aware Mixed Transformer},
   booktitle = {ACM Multimedia 2024},
-  year = {2024},
+  year = {2024}
 }
 ```
 
