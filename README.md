@@ -90,7 +90,8 @@ If you find this code useful for your research, please consider citing the follo
 ```
 
 ## Acknowledgements
-The data processing is borrowed from [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN), and the code is mainly based on [Skeleton-MixFormer](https://github.com/ElricXin/Skeleton-MixFormer) 
+The code is mainly based on [Skeleton-MixFormer](https://github.com/ElricXin/Skeleton-MixFormer).
+The data processing is borrowed from [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN).
 Thanks for their amazing work!  
 
 ## Contact
