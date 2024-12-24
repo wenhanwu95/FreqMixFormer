@@ -19,6 +19,9 @@ Consequently, we introduce the Frequency-aware Mixed Transformer (FreqMixFormer)
 ![resuls](imgs/result.png)
 
 ## Latest Updates:
+* Codes of FreqMixFOrmerV2 will be released soon.
+* Paper of FreqMixFormerV2 is coming to Arxiv soon.
+* FreqMixFormerV2 (A lightweight version of FreqMixFormer) is accepted by The 19th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2025) 2024/12/13
 * Codes updated 2024/11/10
 * Create the GitHub repository and project website on 2024/7/18
 * Preprint paper is available on arXiv 2024/7/18
