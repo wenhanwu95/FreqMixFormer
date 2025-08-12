@@ -19,8 +19,7 @@ Consequently, we introduce the Frequency-aware Mixed Transformer (FreqMixFormer)
 ![resuls](imgs/result.png)
 
 ## Latest Updates:
-* Codes of FreqMixFOrmerV2 will be released soon.
-* Paper of FreqMixFormerV2 is coming to Arxiv soon.
+* We proposed a unified lightweight spatio-temporal transformer framework named UniSTFormer, which achieves a superior balance between accuracy and efficiency. The paper and codes are coming soon 2025/8/12
 * FreqMixFormerV2 (A lightweight version of FreqMixFormer) is accepted by The 19th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2025) 2024/12/13
 * Codes updated 2024/11/10
 * Create the GitHub repository and project website on 2024/7/18
