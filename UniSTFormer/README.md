@@ -8,8 +8,7 @@ Skeleton-based action recognition (SAR) has achieved impressive progress with tr
 <img src="imgs/fig1-1.png" width="500">
 
 ## Baseline
-UniSTFormer is developed on top of [Skeleton-MixFormer](https://github.com/ElricXin/Skeleton-MixFormer),  
-similar to [FreqMixFormer](https://github.com/wenhanwu95/FreqMixFormer.github.io).
+UniSTFormer is developed on top of [Skeleton-MixFormer](https://github.com/ElricXin/Skeleton-MixFormer), which is similar to [FreqMixFormer](https://github.com/wenhanwu95/FreqMixFormer.github.io).
 
 ## Acknowledgements
 The code is mainly based on [Skeleton-MixFormer](https://github.com/ElricXin/Skeleton-MixFormer) and can be run under the same settings as [FreqMixFormer](https://github.com/wenhanwu95/FreqMixFormer.github.io).
