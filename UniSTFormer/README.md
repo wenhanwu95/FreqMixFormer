@@ -1,4 +1,4 @@
-# UniSTFormer: Unified Lightweight Spatio-Temporal Transformer for Skeleton-based Action Recognition
+# [UniSTFormer: Unified Lightweight Spatio-Temporal Transformer for Skeleton-based Action Recognition](https://www.arxiv.org/abs/2508.08944)
 [Wenhan Wu](https://sites.google.com/view/wenhanwu/%E9%A6%96%E9%A1%B5), [Zhishuai Guo](https://zhishuaiguo.github.io/), [Chen Chen](https://www.crcv.ucf.edu/chenchen/), [Aidong Lu](https://webpages.charlotte.edu/alu1/)
 
 ## Abstract
