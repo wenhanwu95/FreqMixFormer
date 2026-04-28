@@ -56,7 +56,6 @@ class Ske_MixF(nn.Module):
             self.residual = unit_skip(in_channels, out_channels, kernel_size=1, stride=stride)
 
     def forward(self, x):
-        # 🎯 Only apply spatial attention, use pooling if stride is needed
         x_spa = self.spa_mixf(x)
         
         # If stride is needed, use simple pooling instead of convolution
@@ -96,8 +95,7 @@ class Model(nn.Module):
         self.fc = nn.Linear(320, num_class)
         nn.init.normal(self.fc.weight, 0, math.sqrt(2. / num_class))
         bn_init(self.data_bn, 1)
-        
-        # 🎯 Keep retrospective model
+    
         self.first_tram = nn.Sequential(
                 nn.AvgPool2d((4,1)),
                 nn.Conv2d(80, 320, 1),
